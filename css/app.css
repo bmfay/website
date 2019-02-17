@@ -4,11 +4,13 @@
 
 body {
   background-color: #fef8e0;
+  margin: 0;
 }
 
-.page-wrapper {
+.page-container {
   overflow: hidden;
   height: 100%;
+  padding-top: 20px;
 }
 
 /* Score */
@@ -16,7 +18,7 @@ body {
 .score {
    width:1268px;
    height:800px;
-   margin: 10px auto;
+   margin: 0 auto;
    background: gainsboro;
 }
 
@@ -71,7 +73,7 @@ body {
   padding: 10px;
   border-radius: 4px;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  margin: 25px auto;
+  margin: 30px auto;
   background-color: white;
 }
 
